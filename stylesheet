@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(66, 66, 66, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-left {
+    float: left;
+}
+.header_logo span {
+    color: #ff0000;    
+}
+.header_logo {
+    color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+nav {
+    position: relative;
+    margin: auto 10px;
+    width: 500px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+    float: right;
+    
+}
+
+nav a {
+    font-size: 15px;
+    color: #fff;
+    line-height: 65px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #1abc9c;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+nav a:nth-child(1) {
+    width: 100px;
+}
+nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+}
+nav a:nth-child(2) {
+    width: 100px;
+}
+nav a:nth-child(2):hover~.animation {
+    width: 100px;
+    left: 100px;
+}
+nav a:nth-child(3) {
+    width: 100px;
+}
+nav a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 200px;
+}
+nav a:nth-child(4) {
+    width: 100px;
+}
+nav a:nth-child(4):hover~.animation {
+    width: 100px;
+    left: 300px;
+}
+nav a:nth-child(5) {
+    width: 100px;
+}
+nav a:nth-child(5):hover~.animation {
+    width: 100px;
+    left: 400px;
+}
+
+.menu-icon {
+    color: #ffff;
+    float: right;
+    display: none;
+    font-size: 20px;
+}
+
+
+.main_1 {
+    height: 470px;
+    background-color: #F6FBFE;
+    text-align: center;
+
+}
+.main_1img {
+    float: right;
+    width: 700px;
+}
+.main_1text {
+    padding: 170px 0;
+    opacity: 0.9;
+}
+.main_1 h1 {
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+.main_1 h3 {
+    margin-top: 1px;
+    font-weight: normal;
+    font-size: 15px;
+}
+.main_1 span {
+    color: #ff0000;
+    font-weight: bold;
+}
+.main_1 a {
+    padding: 12px 14px;
+    color: #fff;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    background-color:#5dca88;
+    cursor: pointer;
+    box-shadow: 0 3px #1a7940;
+}
+.main_1 a:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.main_2 {
+    padding-top: 110px;
+    padding-bottom: 180px;
+    background-color: #D2D2D2;
+}
+.services {
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+.service {
+    float: left;
+    width: 33.3%;
+    padding: 0 80px;
+    position: relative;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.service:hover {
+    opacity: 1;
+}
+.btn {
+    height: 220px;
+    margin-bottom: 20px;
+    border-radius: 250px;
+}
+.kebutuhan {
+    background-color:#ff0000;
+}
+.perawatan {
+    background-color:#9110F7;
+}
+.penitipan {
+    background-color:#F7B011;
+}
+.pelatihan {
+    background-color:#0000F7;
+}
+.kesehatan {
+    background-color:#009400;
+}
+.pengasuh {
+    background-color:#2DD3F7;
+}   
+.service a {
+    color:#fff;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    font-size: 30px;
+    width: 50%;
+    left: 95px;
+    padding: 70px 20px;
+    display: inline-block;
+    border-radius: 60px;
+}
+
+.main_3 {
+    padding-top: 50px;
+    text-align: center; 
+    height: 750px;
+    background-color: #EAEAEA;
+}
+.main_3 h1 {
+    font-size: 73px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.main_3 span {
+    color: #ff0000;
+}
+.main_3 h2 {
+    margin-top: 0;
+}
+.main_3 p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 90px;
+}
+.rat {
+    float: left;
+    width: 33.3%;
+}
+.percaya img {
+    width: 120px;
+}
+.rating img {
+    width: 200px;
+}
+.nyaman img {
+    width: 155px;
+}
+.main_3_3 h3 {
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+.main_3_3 p {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.main_4 {
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.main_4 h2 {
+    font-size: 30px;
+}
+
+footer {
+    height: 65px;
+    background: rgba(66, 66, 66, 0.9);
+    width: 100%;
+    bottom: 0;
+}
+.footer_logo {
+    color: #fff;
+    line-height: 65px;
+}
+.footer_logo span {
+    color: #ff0000;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+    .main_1img {
+        width: 450px;
+    }
+    .main_1text {
+        padding-top: 130px;
+    }
+    .main_1 h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .main_1 h3 {
+        font-size: 10px;
+    }
+    .main_1 {
+        height: 300px;
+    }
+    .btn {
+        height: 140px;
+        border-radius: 100px;
+    }
+    .service a {
+        font-weight: normal;
+        left: 75px;
+        top: 0;
+        padding: 40px 20px;
+        font-size: 25px;
+    }
+    .main_2 {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .services {
+        height: 450px;
+    }
+    .main_3 {
+        padding-top: 40px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .main_1img {
+        display: none;
+    }
+    .main_1 {
+        background-color: rgba(255,255,255,0.1);
+        background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg);
+        background-size: cover;
+        height: 300px;
+    }
+    nav {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .service {
+        width: 50%;
+    }
+    .services {
+        height: 700px;
+    }
+    .main_3 h1 {
+        font-size: 50px;
+    }
+    .main_3 h2 {
+        font-size: 20px;
+    }
+    .main_3 p {
+        font-size: 13px;
+        letter-spacing: 0;
+        margin-bottom; 40px;
+    }
+    .percaya img {
+        width: 80px;
+    }
+    .rating img {
+        width: 130px;
+    }
+    .nyaman img {
+        width: 105px;
+    }
+    .main_3_3 h3 {
+        font-size: 20px;
+    }
+    .main_3_3 p {
+        font-size: 15px;
+    }
+    .main_3 {
+        height: 600px;
+    }
+
+}
